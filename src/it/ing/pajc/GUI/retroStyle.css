@@ -1,0 +1,80 @@
+.text-input
+{
+    -fx-text-fill : #fff;
+}
+.radio-color
+{
+    -fx-mark-highlight-color : #9643A9;
+    -fx-mark-color : #CE201C;
+}
+
+#windowPanel
+{
+    -fx-background-color: #5c007a;
+}
+
+#centerWindow
+{
+    -fx-background-image: url("Images/RetroStyle/background.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.button
+{
+    -fx-background-color: #98829e;
+}
+
+.button:hover
+{
+    -fx-background-color: #d9bddf;
+}
+
+.label:hover{
+    -fx-text-fill: #d05ce3;
+}
+#darkSquare
+{
+    -fx-background-color:#6a0080;
+    -fx-opacity:90%;
+}
+#lightSquare
+{
+    -fx-background-color:#d05ce3;
+    -fx-opacity:90%;
+}
+
+#movementHighlight
+{
+    -fx-background-color: #ff8cee;
+}
+
+#captureHighlight
+{
+    -fx-background-color:rgb(255,0,0);
+    -fx-opacity:75%;
+}
+
+#canCaptureHighlight
+{
+    -fx-background-color:#fae846;
+}
+
+.gridPane
+{
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+    -fx-pref-height: 480;
+    -fx-pref-width: 480;
+    -fx-translate-x: 60;
+    -fx-translate-y: 60;
+}
+
+.text-field
+{
+    -fx-text-fill: white;
+    -fx-background-color: black;
+}
+.text-area .content{
+    -fx-background-color: black;
+}
